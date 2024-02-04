@@ -1,0 +1,2 @@
+2. Responsiveness
+3. Add recipe modal

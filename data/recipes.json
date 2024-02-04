@@ -1,0 +1,65 @@
+{
+  "recipes": [
+    {
+      "img": "/images/chickencurry.jpg",
+      "title": "Kip Curry",
+      "summary": "Savor the aromatic bliss of Chicken Curry! Tender chicken in a rich, spicy sauce, delivering a symphony of flavors. A must-try!",
+      "time": "4 personen | 45-60 minuten",
+      "ingredients": [
+        "2 kippenborsten",
+        "2 ajuinen",
+        "Rijst",
+        "Arachideolie",
+        "Kippenkruiden",
+        "400ml kokosmelk",
+        "250ml halfvolle room",
+        "Curry pasta",
+        "Koriander"
+      ],
+      "instructions": [
+        "Snij de kip en ajuin in fijne stukjes.",
+        "Bak de ajuin in arachideolie tot ze glazig zijn. Laat ze daarna rusten in een kom. Voeg opnieuw arachideolie toe aan de pan en bak de kip tot hij er van buiten goed uitziet. Voeg de kippenkruiden toe en laat voor nog 1-2 minuten bakken.",
+        "Kook de rijst.",
+        "Voeg de ajuin toe in de pan met de kip. Giet de kokosmelk en room in de pan en meng rustig. Voeg curry pasta toe naargelang je eigen pikantheidsniveau en meng opnieuw.",
+        "Laat alles in de pan koken voor ongeveer 30 minuten zodat de curry kan afkoken en dikt. Vergeet niet te roeren om aanbakken en plakken te vermijden.",
+        "Strooi koriander over het gerecht vlak voordat je het opdient met de rijst."
+      ]
+    },
+    {
+      "img": "/images/koreanbeefstirfry.jpg",
+      "title": "Koreaanse roerbak met rundsgehakt",
+      "summary": "",
+      "time": "4 personen | 30-45 minuten",
+      "ingredients": ["Beef", "Carrots"],
+      "instructions": ["Cook the beef", "Chop the vegetables"]
+    },
+    {
+      "img": "/images/bamigoreng.jpg",
+      "title": "Bami Goreng",
+      "summary": "",
+      "time": "4 personen | 20-30 minuten",
+      "ingredients": [
+        "2 kippenborsten",
+        "500g spaghetti",
+        "3 stengels prei",
+        "100ml soja saus",
+        "1 el oestersaus",
+        "1 el rijstwijnazijn",
+        "2 el sesamolie",
+        "2 teentjes look",
+        "15g gember"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes.",
+        "Pers de look en rasp de gember en doe deze in een kom. Voeg vervolgens de soja saus, oestersaus, rijstwijnazijn, sesamolie toe en mix met een garde.",
+        "Wok de prei totdat ze zacht is om de zoete smaak te laten vrijkomen. Laat het daarna rusten in een kom.",
+        "Zet een kom water aan de kook en voeg de pasta toe wanneer het kookt.",
+        "Neem 1-2 el van de saus en meng ze door de kip met de hand zodat de saus goed in de kip trekt.",
+        "Bak de kip in de wokpan tot ze er goed uitzien vanbuiten en geef het dan nog 2-3 mins zodat ze vanbinnen ook garen.",
+        "Zet de kip even apart in een kom, liefst met een deksel zodat ze nog verder doorgaren.",
+        "Giet de pasta af wanneer deze klaar is en leg het in de wokpan. Giet 3/4de van de saus uit over de pasta en meng zodat de pasta de saus absorbeerd.",
+        "Voeg de kip en de prei toe aan de kom en meng eventjes. Giet vervolgens de rest van de saus in de kom en meng nog 2 mins voordat je het serveert."
+      ]
+    }
+  ]
+}

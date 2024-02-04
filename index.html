@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="/images/chickencurry.jpg" />
+    <title>Recipe Finder</title>
+  </head>
+  <body>
+    <header>
+      <h3 class="header__title">Recipe Finder</h3>
+      <input
+        type="search"
+        id="rsearch"
+        onkeyup="search()"
+        class="search-bar"
+        name="rsearch"
+        placeholder="Search for a recipe..."
+      />
+      <label class="btn-switch">
+        <input id="toggle-theme" type="checkbox" />
+        <span class="slider rounded"></span>
+      </label>
+    </header>
+    <main>
+      <section id="cards" class="recipe-list">
+        <div id="card-1" class="card">
+          <div class="card__preview">
+            <img
+              src="/images/chickencurry.jpg"
+              alt=""
+              width="250px"
+              class="card__img"
+            />
+            <div class="container">
+              <div class="wrapper">
+                <h3 class="card__title">Chicken Curry</h3>
+                <small class="card__time">45-60 minutes</small>
+                <p class="card__summary">
+                  Savor the aromatic bliss of Chicken Curry! Tender chicken in a
+                  rich, spicy sauce, delivering a symphony of flavors. A
+                  must-try!
+                </p>
+              </div>
+              <button id="btn-toggle-1" class="card__toggle">
+                Show Recipe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recipe">
+        <div id="recipe" class="card__recipe">
+          <h3 class="recipe__title">Kip Curry</h3>
+          <div class="wrapper">
+            <figure class="container">
+              <figcaption class="card__title--small">Ingrediënten</figcaption>
+              <ul class="card__ingredients-list">
+                <li class="ingredient">Kip</li>
+                <li class="ingredient">2 ajuinen</li>
+                <li class="ingredient">Rijst</li>
+                <li class="ingredient">Arachideolie</li>
+                <li class="ingredient">Kippenkruiden</li>
+                <li class="ingredient">400ml kokosmelk</li>
+                <li class="ingredient">250ml halfvolle room</li>
+                <li class="ingredient">Curry pasta</li>
+                <li class="ingredient">Koriander</li>
+              </ul>
+            </figure>
+            <figure class="container">
+              <figcaption class="card__title--small">Instructies</figcaption>
+              <ol class="card__instruction-list">
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 1</span>
+                  <p class="instruction">
+                    Snij de kip en ajuin in fijne stukjes.
+                  </p>
+                </li>
+
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 2</span>
+                  <p class="instruction">
+                    Bak de ajuin in arachideolie tot ze glazig zijn. Laat ze
+                    daarna rusten in een kom. Voeg opnieuw arachideolie toe aan
+                    de pan en bak de kip tot hij er van buiten goed uitziet.
+                    Voeg de kippenkruiden toe en laat voor nog 1-2 minuten
+                    bakken.
+                  </p>
+                </li>
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 3</span>
+                  <p class="instruction">Kook de rijst.</p>
+                </li>
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 4</span>
+                  <p class="instruction">
+                    Voeg de ajuin toe in de pan met de kip. Giet de kokosmelk en
+                    room in de pan en meng rustig. Voeg curry pasta toe
+                    naargelang je eigen pikantheidsniveau en meng opnieuw.
+                  </p>
+                </li>
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 5</span>
+                  <p class="instruction">
+                    Laat alles in de pan koken voor ongeveer 30 minuten zodat de
+                    curry kan afkoken en dikt. Vergeet niet te roeren om
+                    aanbakken en plakken te vermijden.
+                  </p>
+                </li>
+                <li class="instruction-list__item">
+                  <span class="item-number">Stap 6</span>
+                  <p class="instruction">
+                    Strooi koriander over het gerecht vlak voordat je het
+                    opdient met de rijst.
+                  </p>
+                </li>
+              </ol>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/js/index.js"></script>
+    <script src="/js/toggle-theme.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ef5eb49876.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
