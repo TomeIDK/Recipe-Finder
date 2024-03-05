@@ -6,10 +6,11 @@
  [Alphabetical Sort](https://stackoverflow.com/questions/6712034/sort-array-by-firstname-alphabetically-in-javascript)  
    ```
     recipes.sort(function(a, b) {
-    let keyA = a.title;
-    let  keyB = b.title;
+     let keyA = a.title;
+     let  keyB = b.title;
 
-    if (keyA < keyB) return -1;
-    if (keyA > keyB) return 1;
-    return 0;
+     if (keyA < keyB) return -1;
+     if (keyA > keyB) return 1;
+     return 0;
+    });
 ```
