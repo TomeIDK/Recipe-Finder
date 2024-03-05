@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" href="/images/chickencurry.jpg" />
-    <title>Recipe Finder</title>
+    <title>Recipe Tome</title>
   </head>
   <body>
     <header>
-      <h3 class="header__title">Recipe Finder</h3>
+      <h3 class="header__title">Recipe Tome</h3>
       <input
         type="search"
         id="rsearch"
         onkeyup="search()"
         class="search-bar"
         name="rsearch"
-        placeholder="Search for a recipe..."
+        placeholder="Zoek naar een recept..."
       />
+      <div class="header__locale">
+        <a href="#" class="btn btn-tertiary btn-locale">NL</a>
+        <span>|</span>
+        <a href="#" class="btn btn-tertiary btn-locale">EN</a>
+      </div>
       <label class="btn-switch">
         <input id="toggle-theme" type="checkbox" />
         <span class="slider rounded"></span>
@@ -123,7 +128,7 @@
       </section>
     </main>
     <script src="/js/index.js"></script>
-    <script src="/js/toggle-theme.js"></script>
+    <script src="/js/preferences.js"></script>
     <script
       src="https://kit.fontawesome.com/ef5eb49876.js"
       crossorigin="anonymous"

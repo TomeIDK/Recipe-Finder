@@ -10,6 +10,7 @@
   /* TomeKit Variables */
   --hoverboxshadow: 1px 2px 5px;
   --textshadow: 0px 1px 0px;
+  --shadow: #00000059;
 }
 
 html {
@@ -299,4 +300,38 @@ figure.container {
 
 .btn-switch .slider.rounded::before{
   border-radius: 50%;
+}
+
+/* TomeKit Tertiary Button */
+.btn-tertiary {
+  padding: 0;
+  color: #f5f5f5;
+  background-color: var(--primary);
+  border: none;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+.btn-tertiary:hover {
+  text-shadow: var(--textshadow) var(--shadow);
+}
+
+.btn-tertiary:focus {
+  text-shadow: var(--textshadow) var(--shadow);
+}
+
+.btn-tertiary:active {
+  filter: brightness(90%);
+}
+
+.btn-locale{
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.header__locale{
+  margin-inline: 1rem;
+  margin-block: auto;
+  color: #f5f5f5;
 }
