@@ -15,4 +15,4 @@
     });
 ```
 [TomeKit](https://github.com/TomeIDK/TomeKit)  
-**Private CSS component collection made by myself**
+**CSS component collection made by myself**
