@@ -1,11 +1,6 @@
-//TODO:
-//1: Modal functionality
-
 const cards = document.getElementById("cards");
 const cardToggle = document.getElementsByClassName("card__toggle");
 const cardRecipe = document.getElementById("recipe");
-const modal = document.getElementById("modal");
-const close = document.getElementsByClassName("close")[0];
 let recipeList = getRecipes();
 
 //Generate and append cards from json file

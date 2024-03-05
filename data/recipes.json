@@ -26,7 +26,7 @@
       ]
     },
     {
-      "img": "/images/koreanbeefstirfry.jpg",
+      "img": "/images/koreanbeefstirfry.png",
       "title": "Koreaanse roerbak met rundsgehakt",
       "summary": "",
       "time": "4 personen | 30-45 minuten",
@@ -40,18 +40,19 @@
       "time": "4 personen | 20-30 minuten",
       "ingredients": [
         "2 kippenborsten",
-        "500g spaghetti",
+        "500g capellini",
         "3 stengels prei",
-        "100ml soja saus",
-        "1 el oestersaus",
+        "150ml soja saus",
+        "3/4 el oestersaus",
         "1 el rijstwijnazijn",
         "2 el sesamolie",
+        "1 el mirin",
         "2 teentjes look",
         "15g gember"
       ],
       "instructions": [
         "Snij de kip en prei in fijne stukjes.",
-        "Pers de look en rasp de gember en doe deze in een kom. Voeg vervolgens de soja saus, oestersaus, rijstwijnazijn, sesamolie toe en mix met een garde.",
+        "Pers de look en rasp de gember en doe deze in een kom. Voeg vervolgens de soja saus, oestersaus, rijstwijnazijn, sesamolie, en mirin toe en mix met een garde.",
         "Wok de prei totdat ze zacht is om de zoete smaak te laten vrijkomen. Laat het daarna rusten in een kom.",
         "Zet een kom water aan de kook en voeg de pasta toe wanneer het kookt.",
         "Neem 1-2 el van de saus en meng ze door de kip met de hand zodat de saus goed in de kip trekt.",
@@ -59,6 +60,66 @@
         "Zet de kip even apart in een kom, liefst met een deksel zodat ze nog verder doorgaren.",
         "Giet de pasta af wanneer deze klaar is en leg het in de wokpan. Giet 3/4de van de saus uit over de pasta en meng zodat de pasta de saus absorbeerd.",
         "Voeg de kip en de prei toe aan de kom en meng eventjes. Giet vervolgens de rest van de saus in de kom en meng nog 2 mins voordat je het serveert."
+      ]
+    },
+    {
+      "img": "/images/pepperbeefstirfry.png",
+      "title": "Gepeperde rundvlees roerbak",
+      "summary": "",
+      "time": "4 personen | 30-45 minuten",
+      "ingredients": [
+        "2 kippenborsten"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes."
+      ]
+    },
+    {
+      "img": "/images/japanesechickenkatsucurry.png",
+      "title": "Japanse Kip Katsu Curry",
+      "summary": "",
+      "time": "5 personen | 1 uur",
+      "ingredients": [
+        "2 kippenborsten"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes."
+      ]
+    },
+    {
+      "img": "/images/pastawithchipolataandcarrots.webp",
+      "title": "Pasta met chipolata's en worteltjes",
+      "summary": "",
+      "time": "4 personen | 30 minuten",
+      "ingredients": [
+        "2 kippenborsten"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes."
+      ]
+    },
+    {
+      "img": "/images/sweet&sourchicken.png",
+      "title": "Zoetzure kip",
+      "summary": "",
+      "time": "? personen | ? minuten",
+      "ingredients": [
+        "2 kippenborsten"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes."
+      ]
+    },
+    {
+      "img": "/images/chickenwraps.png",
+      "title": "Kip en pepermayonnaise wraps",
+      "summary": "",
+      "time": "? personen | ? minuten",
+      "ingredients": [
+        "2 kippenborsten"
+      ],
+      "instructions": [
+        "Snij de kip en prei in fijne stukjes."
       ]
     }
   ]
