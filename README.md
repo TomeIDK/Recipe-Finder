@@ -19,3 +19,6 @@
 
 [Multilingual Support](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)  
 [LocalStorage Tutorial](https://www.youtube.com/watch?v=AUOzvFzdIk4)
+
+## Title Options
+Tasty Tomes
