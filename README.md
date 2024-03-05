@@ -14,3 +14,7 @@
      return 0;
     });
 ```
+[TomeKit](https://github.com/TomeIDK/TomeKit)  
+**CSS component collection made by myself**
+
+[Multilingual Support](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)
