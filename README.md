@@ -11,5 +11,14 @@
 
     if (keyA < keyB) return -1;
     if (keyA > keyB) return 1;
-    return 0;`
-   ---
+    return 0;
+
+   ```
+    recipes.sort(function(a, b) {
+    let keyA = a.title;
+    let  keyB = b.title;
+
+    if (keyA < keyB) return -1;
+    if (keyA > keyB) return 1;
+    return 0;
+```
