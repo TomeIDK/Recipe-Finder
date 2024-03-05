@@ -8,7 +8,6 @@
     let keyA = a.title;
     let  keyB = b.title;
 
-    // Compare the 2 titles
     if (keyA < keyB) return -1;
     if (keyA > keyB) return 1;
     return 0;`
