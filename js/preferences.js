@@ -19,12 +19,17 @@ themeToggler.addEventListener("change", () => {
 });
 
 function loadPreferences() {
-  let { theme, lang } = JSON.parse(localStorage.getItem("preferences"));
-  preferences = { theme, lang };
-  themeToggler.checked = theme;
-  
-  toggleTheme(theme);
-  toggleLang(lang);
+  try {
+    let { theme, lang } = JSON.parse(localStorage.getItem("preferences"));
+    preferences = { theme, lang };
+    themeToggler.checked = theme;
+    
+    toggleTheme(theme);
+    toggleLang(lang);
+  } catch (error) {
+    localStorage.setItem("preferences", JSON.stringify(preferences));
+  }
+
 }
 
 function toggleTheme(theme) {
