@@ -3,7 +3,7 @@
     {
       "img": "/images/chickencurry.jpg",
       "title": "Kip Curry",
-      "summary": "Savor the aromatic bliss of Chicken Curry! Tender chicken in a rich, spicy sauce, delivering a symphony of flavors. A must-try!",
+      "summary": "Origineel recept.",
       "time": "4 personen | 45-60 minuten",
       "ingredients": [
         "2 kippenborsten",
@@ -28,15 +28,42 @@
     {
       "img": "/images/koreanbeefstirfry.png",
       "title": "Koreaanse roerbak met rundsgehakt",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=kBivrTwvTVU' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "4 personen | 30-45 minuten",
-      "ingredients": ["Beef", "Carrots"],
-      "instructions": ["Cook the beef", "Chop the vegetables"]
+      "ingredients": [
+        "1kg rundsgehakt",
+        "2 ajuinen",
+        "2-3 rode paprika's",
+        "2-3 wortelen",
+        "1-2 broccoli's",
+        "1 1/2 el arachideolie",
+        "125ml soja saus",
+        "2 el rijstazijn",
+        "60g bruine suiker",
+        "3 tl geroosterde sesamolie",
+        "5 teentjes look",
+        "15g gember",
+        "1/2 tl chili schilfers",
+        "1 el (donkere) maizena",
+        "Rijst"
+      ],
+      "instructions": [
+        "Snij de ajuinen en paprika in fijne stukjes, rasp de wortelen en snij de broccoli in stukken.",
+        "Neem een kom en giet de soja saus erin. Voeg vervolgens de rijstazijn, sesamolie en bruine suiker toe en meng al een beetje. Rasp daarna de gember, pers de look en voeg deze toe samen met de chili schilfers. Meng opnieuw.",
+        "Warm een wokpan op met arachideolie en bak het rundsgehakt voor 5 mins totdat het overal een bruine kleur heeft.",
+        "Begin met de rijst te koken",
+        "Voeg de ajuinen toe aan de pan, meng met het gehakt en bak voor 2 mins.",
+        "Voeg de broccoli toe, meng en bak totdat ze zachter zijn, maar niet slap, voor ongeveer 4-5 mins.",
+        "Voeg de paprika toe, meng opnieuw en bak voor ongeveer 2 mins.",
+        "Voeg de wortel toe, meng en bak voor ongeveer 1 mins.",
+        "Giet de saus over het geheel in de pan en meng dit goed. Dit gaat alle smaak geven aan het gerecht.",
+        "Om de saus wat dikker te maken verzamel je het aan één kant van de pan en voeg je er de maizena aan toe en meng je het met de saus. Meng hierna weer goed met de de roerbak."
+      ]
     },
     {
       "img": "/images/bamigoreng.jpg",
       "title": "Bami Goreng",
-      "summary": "",
+      "summary": "Origineel recept.",
       "time": "4 personen | 20-30 minuten",
       "ingredients": [
         "2 kippenborsten",
@@ -65,62 +92,61 @@
     {
       "img": "/images/pepperbeefstirfry.png",
       "title": "Gepeperde rundvlees roerbak",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "4 personen | 30-45 minuten",
-      "ingredients": [
-        "2 kippenborsten"
-      ],
-      "instructions": [
-        "Snij de kip en prei in fijne stukjes."
-      ]
+      "ingredients": ["2 kippenborsten"],
+      "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
       "img": "/images/japanesechickenkatsucurry.png",
       "title": "Japanse Kip Katsu Curry",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=bLvQutBaaac' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "5 personen | 1 uur",
-      "ingredients": [
-        "2 kippenborsten"
-      ],
-      "instructions": [
-        "Snij de kip en prei in fijne stukjes."
-      ]
+      "ingredients": ["2 kippenborsten"],
+      "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
       "img": "/images/pastawithchipolataandcarrots.webp",
       "title": "Pasta met chipolata's en worteltjes",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.colruyt.be/nl/lekker-koken/recept/pasta-met-chipolata-en-worteltjes' class='summary__credit' target='_blank'>Colruyt.be</a>",
       "time": "4 personen | 30 minuten",
       "ingredients": [
-        "2 kippenborsten"
+        "8 chipolata's",
+        "1 sjalot of ajuin",
+        "125g kruidenkaas",
+        "100g geraspte mozzarella",
+        "2dl halfvolle room",
+        "500g macaroni pasta",
+        "1 el olijfolie",
+        "peper",
+        "zout"
       ],
       "instructions": [
-        "Snij de kip en prei in fijne stukjes."
+        "Verwarm de oven voor op 200 °C.",
+        "Rasp de wortelen fijn.",
+        "Kook de pasta in lichtgezouten water volgens de verpakking.",
+        "Verhit de olijfolie in een braadpan en bak de chipolata's goudbruin. Haal ze uit de pan en snij in stukjes van ~2cm",
+        "Voeg de geraspte wortelen toe en laat nog 2 mins bakken.",
+        "Roer er de room en de kruidenkaas onder. Kruid met peper en zout.",
+        "Giet de pasta in een ovenschaal en voeg de wortelen en chipolata toe. Bestrooi met de geraspte mozzarella.",
+        "Bak 10 mins in de oven en zet voor de laatste 2-3 mins de ovengrill aan voor een goudbruin korstje."
       ]
     },
     {
       "img": "/images/sweet&sourchicken.png",
       "title": "Zoetzure kip",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "? personen | ? minuten",
-      "ingredients": [
-        "2 kippenborsten"
-      ],
-      "instructions": [
-        "Snij de kip en prei in fijne stukjes."
-      ]
+      "ingredients": ["2 kippenborsten"],
+      "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
       "img": "/images/chickenwraps.png",
       "title": "Kip en pepermayonnaise wraps",
-      "summary": "",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=RKtOJ4jvo94' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "? personen | ? minuten",
-      "ingredients": [
-        "2 kippenborsten"
-      ],
-      "instructions": [
-        "Snij de kip en prei in fijne stukjes."
-      ]
+      "ingredients": ["2 kippenborsten"],
+      "instructions": ["Snij de kip en prei in fijne stukjes."]
     }
   ]
 }

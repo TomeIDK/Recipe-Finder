@@ -1,10 +1,9 @@
 // Theme: False = Light Mode; True = Dark Mode
-// Lang: False = Dutch; True = English
 const themeToggler = document.getElementById("toggle-theme");
 let preferences = {
-  theme: false,
-  lang: false,
+  theme: false
 };
+
 loadPreferences();
 
 themeToggler.addEventListener("change", () => {
@@ -45,5 +44,3 @@ function toggleTheme(theme) {
     console.log("Dark mode disabled");
   }
 }
-
-function toggleLang(lang) {}

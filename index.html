@@ -18,11 +18,16 @@
         name="rsearch"
         placeholder="Zoek naar een recept..."
       />
-      <div class="header__locale">
-        <a href="#" class="btn btn-tertiary btn-locale">NL</a>
-        <span>|</span>
-        <a href="#" class="btn btn-tertiary btn-locale">EN</a>
-      </div>
+      <nav class="header__locale">
+        <ul class="locale__list">
+          <li class="locale__listitem locale__nl">
+            <a href="#" id="langNL" class="btn btn-tertiary btn-locale">NL</a>
+          </li>
+          <li class="locale__listitem locale__en locale__separator">
+            <a href="#" id="langEN" class="btn btn-tertiary btn-locale">EN</a>
+          </li>
+        </ul>
+      </nav>
       <label class="btn-switch">
         <input id="toggle-theme" type="checkbox" />
         <span class="slider rounded"></span>
@@ -40,8 +45,8 @@
             />
             <div class="container">
               <div class="wrapper">
-                <h3 class="card__title">Chicken Curry</h3>
-                <small class="card__time">45-60 minutes</small>
+                <h3 class="card__title">Kip Curry</h3>
+                <small class="card__time">45-60 minuten</small>
                 <p class="card__summary">
                   Savor the aromatic bliss of Chicken Curry! Tender chicken in a
                   rich, spicy sauce, delivering a symphony of flavors. A
