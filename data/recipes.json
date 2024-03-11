@@ -144,9 +144,40 @@
       "img": "/images/chickenwraps.png",
       "title": "Kip en pepermayonnaise wraps",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=RKtOJ4jvo94' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
-      "time": "? personen | ? minuten",
-      "ingredients": ["2 kippenborsten"],
-      "instructions": ["Snij de kip en prei in fijne stukjes."]
+      "time": "4 personen | 30 minuten",
+      "ingredients": [
+        "2 el zout",
+        "2 el selderzout",
+        "4 el lookpoeder",
+        "4 el paprikapoeder",
+        "2 el gemalen zwarte peper",
+        "2 el gemalen witte peper",
+        "2 el mosterdpoeder",
+        "2 el gemberpoeder",
+        "2 el oregano",
+        "1 el basilicum",
+        "1 el thijm",
+        "250g mayonnaise",
+        "2 el gemalen witte peper",
+        "30-30g gemalen zwarte peperbolletjes",
+        "500ml botermelk",
+        "4 kippenborsten",
+        "240g bloem",
+        "Bloemtortilla's/wraps",
+        "2 tomaten",
+        "Sla naar keuze",
+        "(Arachide) Olie om te frituren"
+      ],
+      "instructions": [
+        "Voor de kruidenmix voeg je het zout, selderzout, look-, paprika-, mosterd-, en gemberpoeder, de gemalen witte en zwarte peper, oregano, basilicum en thijm in een kom en mix je ze met een garde.",
+        "Snij de kippenborsten in dunne reepjes/filets en doe ze vervolgens in een kom. Voeg de botermelk eraan toe samen met 3 el van de kruidenmix en meng dit met handschoenen, een lepel of keukentang.",
+        "Overdek de kom met plastic folie en laat het in de frigo marineren voor 30 mins tot 48 uur",
+        "Neem vervolgens een nieuwe kom en voeg hier de bloem aan toe samen met de overige kruidenmix en meng dit met een garde. Zorg dat er geen klonters zijn.",
+        "Voor de pepermayonnaise neem je een kleine kom en meng je de mayonnaise met 2 el gemalen witte peper en de gemalen zwarte peperbolletjes. Hou deze in de frigo tot het klaar is om te serveren.",
+        "Wanneer de kip voldoende voor u gemarineerd is haalt u hem uit de frigo en coat u de stukjes kip in de bloem, zorg ervoor dat je eerst het teveel van de marinade eraf drupt, en legt u ze in de frituurpan met hete olie voor 4-5 mins. totdat de kruimel er goud uit ziet. Doe dit in batches als het nodig is.",
+        "Nu bent u klaar om te serveren. Smeer de pepermayonnaise over de tortilla uit en voeg de groenten toe met de kip en rol de tortilla op.",
+        "Voel u vrij om eenderswelke groenten te gebruiken die u verkiest hiervoor!"
+      ]
     }
   ]
 }
