@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
 
+/* Variables */
 :root {
   --primary: #2e7d32;
   --secondary: #4caf50;
@@ -12,6 +13,8 @@
   --textshadow: 0px 1px 0px;
   --shadow: #00000059;
 }
+
+/* Defaults & Reset */
 
 html {
   font-size: 16px;
@@ -44,13 +47,13 @@ img {
   overflow-wrap: break-word;
 }
 
+/* Header */
+
 header {
   background-color: var(--primary);
   padding: 1rem;
   display: flex;
-  position: fixed;
   width: 100%;
-  top: 0;
 }
 
 .header__title{
@@ -72,11 +75,17 @@ header {
   margin: auto;
 }
 
+/* Main */
+
 main {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5rem;
+  display: grid;
+  gap: .5rem;
+  grid-template-areas: 
+  'list options recipe';
+  grid-template-columns: 1fr .5fr 1fr;
 }
+
+/* Recipe-List Section*/
 
 .card__img {
   object-fit: cover;
@@ -86,9 +95,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  max-height: 90vh;
+  max-height: 95vh;
   overflow-y: scroll;
-  padding-right: 1rem;
 }
 
 .card {
@@ -162,9 +170,63 @@ main {
   filter: brightness(95%);
 }
 
+/* Options Section */
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Random recipe card */
+.options__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .3rem;
+  border-bottom: 2px solid var(--text-accent);
+
+}
+
+.options__title {
+  font-size: 2.2rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.options__time {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: .75rem;
+  color: var(--text-accent);
+}
+
+.options__summary {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin: 0.6rem 0rem;
+}
+
+/* Random recipe button */
+.options__random{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--bg);
+  background-color: var(--secondary);
+  border-radius: .2rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Recipe Section */
 .recipe {
-  width: 40%;
-  max-height: 90vh;
+  /* width: 40%; */
+  max-height: 95vh;
   overflow-y: scroll;
   border: 3px solid var(--text-accent);
   border-right: none;
@@ -190,7 +252,7 @@ main {
 
 .card__recipe .wrapper {
   display: flex;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 figure.container {
@@ -211,9 +273,10 @@ figure.container {
 }
 
 .ingredient {
+  hyphens: auto;
   font-family: 'Open Sans';
   font-weight: 400;
-  margin: 0.2rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .ingredient::before {

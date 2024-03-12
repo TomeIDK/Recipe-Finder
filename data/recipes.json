@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 0,
       "img": "/images/chickencurry.jpg",
       "title": "Kip Curry",
       "summary": "Origineel recept.",
@@ -26,6 +27,7 @@
       ]
     },
     {
+      "id": 1,
       "img": "/images/koreanbeefstirfry.png",
       "title": "Koreaanse roerbak met rundsgehakt",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=kBivrTwvTVU' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
@@ -61,6 +63,7 @@
       ]
     },
     {
+      "id": 2,
       "img": "/images/bamigoreng.jpg",
       "title": "Bami Goreng",
       "summary": "Origineel recept.",
@@ -90,14 +93,16 @@
       ]
     },
     {
+      "id": 3,
       "img": "/images/pepperbeefstirfry.png",
-      "title": "Gepeperde rundvlees roerbak",
+      "title": "Gepeperd rundvlees roerbak",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
       "time": "4 personen | 30-45 minuten",
       "ingredients": ["2 kippenborsten"],
       "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
+      "id": 4,
       "img": "/images/japanesechickenkatsucurry.png",
       "title": "Japanse Kip Katsu Curry",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=bLvQutBaaac' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
@@ -106,6 +111,7 @@
       "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
+      "id": 5,
       "img": "/images/pastawithchipolataandcarrots.webp",
       "title": "Pasta met chipolata's en worteltjes",
       "summary": "Credit: <a href='https://www.colruyt.be/nl/lekker-koken/recept/pasta-met-chipolata-en-worteltjes' class='summary__credit' target='_blank'>Colruyt.be</a>",
@@ -133,6 +139,7 @@
       ]
     },
     {
+      "id": 6,
       "img": "/images/sweet&sourchicken.png",
       "title": "Zoetzure kip",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
@@ -141,10 +148,11 @@
       "instructions": ["Snij de kip en prei in fijne stukjes."]
     },
     {
+      "id": 7,
       "img": "/images/chickenwraps.png",
       "title": "Kip en pepermayonnaise wraps",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=RKtOJ4jvo94' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
-      "time": "4 personen | 30 minuten",
+      "time": "4 personen | 45 minuten",
       "ingredients": [
         "2 el zout",
         "2 el selderzout",
