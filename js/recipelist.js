@@ -26,6 +26,8 @@ function buildRecipeList() {
     cardsList.forEach((card) => {
       cards.append(card);
     });
+
+    // Add Event Listener to each button
     addEventListeners(recipes);
   });
 }
