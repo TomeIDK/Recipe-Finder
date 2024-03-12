@@ -4,7 +4,19 @@ let preferences = {
   theme: false
 };
 
-loadPreferences();
+(function loadPreferences() {
+  try {
+    let { theme, lang } = JSON.parse(localStorage.getItem("preferences"));
+    preferences = { theme, lang };
+    themeToggler.checked = theme;
+    
+    toggleTheme(theme);
+    toggleLang(lang);
+  } catch (error) {
+    localStorage.setItem("preferences", JSON.stringify(preferences));
+  }
+
+})();
 
 themeToggler.addEventListener("change", () => {
   toggleTheme(themeToggler.checked);
@@ -17,19 +29,7 @@ themeToggler.addEventListener("change", () => {
   }
 });
 
-function loadPreferences() {
-  try {
-    let { theme, lang } = JSON.parse(localStorage.getItem("preferences"));
-    preferences = { theme, lang };
-    themeToggler.checked = theme;
-    
-    toggleTheme(theme);
-    toggleLang(lang);
-  } catch (error) {
-    localStorage.setItem("preferences", JSON.stringify(preferences));
-  }
 
-}
 
 function toggleTheme(theme) {
   if (theme) {
