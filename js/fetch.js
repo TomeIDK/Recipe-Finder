@@ -1,4 +1,4 @@
-// Returns promise with sorted array of data from "recipes.json"
+// Returns promise with alphabetically sorted array of data from "recipes.json"
 function getRecipes() {
   return sortData(getData("/data/recipes.json"));
 }
