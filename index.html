@@ -47,9 +47,7 @@
               <div class="wrapper">
                 <h3 class="card__title">Kip Curry</h3>
                 <small class="card__time">45-60 minuten</small>
-                <p class="card__summary">
-                  Origineel recept.
-                </p>
+                <p class="card__summary">Origineel recept.</p>
               </div>
               <button id="btn-toggle-1" class="card__toggle">
                 Toon Recept
@@ -60,18 +58,21 @@
       </section>
 
       <section class="options">
+        <div class="options__wrapper">
         <div id="options-div" class="options__card">
-          <h3 id="options-title" class="options__title">Kip Curry</h3>
-          <img id="options-img"
-            src="/images/chickencurry.jpg"
-            alt=""
-            width="200px"
-            class="options__img"
-          />
-          <small id="options-time" class="options__time">45-60 minuten</small>
-          <p id="options-summary" class="options__summary">
-            Origineel recept.
-          </p>
+          
+            <h3 id="options-title" class="options__title">Kip Curry</h3>
+            <img
+              id="options-img"
+              src="/images/chickencurry.jpg"
+              alt=""
+              class="options__img"
+            />
+            <small id="options-time" class="options__time">45-60 minuten</small>
+            <p id="options-summary" class="options__summary">
+              Origineel recept.
+            </p>
+          </div>
         </div>
         <button id="btn-random" class="options__random options__toggle">
           Krijg een willekeurig recept
@@ -149,7 +150,14 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <ul class="socials">
+        <li class="icon"><a href="https://github.com/TomeIDK" target="_blank" class="icon-link"><i class="fa-brands fa-github fa-xl"></i></a></li>
+        <li class="icon"><a href="https://www.linkedin.com/in/cedric-pas/" target="_blank" class="icon-link"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+        <li class="icon"><a href="https://twitter.com/TomeIDK" target="_blank" class="icon-link"><i class="fa-brands fa-x-twitter fa-xl"></i></a></li>
+      </ul>
+      <p class="copyright">Copyright © 2024 Tome</p>
+    </footer>
     <script src="/js/index.js"></script>
     <script src="/js/preferences.js"></script>
     <script src="/js/searchbar.js"></script>
