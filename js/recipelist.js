@@ -50,25 +50,31 @@ function generateCard(id, dataImg, dataTitle, dataTime, dataSummary) {
   img.setAttribute("alt", "");
   img.setAttribute("width", "250px");
 
-  // Containers <div class="container"> and wrappers <div class="wrapper">
+  // Containers <div class="container">
   let container = document.createElement("div");
   container.className = "container";
-  let wrapper = document.createElement("div");
-  wrapper.className = "wrapper";
 
   // Title <h3 class="card__title">
   let title = document.createElement("h3");
   title.classList.add("card__title");
+  title.classList.add("fs-xl");
+  title.classList.add("montserrat");
+  title.classList.add("semibold");
   title.innerHTML = dataTitle;
 
   // Time <small class="card__time">
   let time = document.createElement("small");
   time.classList.add("card__time");
+  time.classList.add("fs-xs");
+  time.classList.add("oswald");
+  time.classList.add("medium");
   time.innerHTML = dataTime;
 
   // Summary <p class="card__summary">
   let summary = document.createElement("p");
   summary.classList.add("card__summary");
+  summary.classList.add("opensans");
+  summary.classList.add("regular");
   summary.innerHTML = dataSummary;
 
   // Toggle <button class="card__toggle">
@@ -77,7 +83,6 @@ function generateCard(id, dataImg, dataTitle, dataTime, dataSummary) {
 
   // Send above components to build the card
   let recipe = buildCard(
-    wrapper,
     container,
     preview,
     card,
@@ -101,13 +106,11 @@ function generateCard(id, dataImg, dataTitle, dataTime, dataSummary) {
             class="card__img"
         />
         <div class="container">
-            <div class="wrapper">
                 <h3 class="card__title">Kip Curry</h3>
                 <small class="card__time">45-60 minuten</small>
                 <p class="card__summary">
                     Origineel recept.
                 </p>
-            </div>
             <button id="btn-toggle-1" class="card__toggle">
             Toon Recept
             </button>
@@ -117,7 +120,6 @@ function generateCard(id, dataImg, dataTitle, dataTime, dataSummary) {
 */
 // Use all components to build the card and return as HTML component
 function buildCard(
-  wrapper,
   container,
   preview,
   card,
@@ -127,10 +129,9 @@ function buildCard(
   btnToggle,
   img
 ) {
-  wrapper.appendChild(title);
-  wrapper.appendChild(time);
-  wrapper.appendChild(summary);
-  container.appendChild(wrapper);
+  container.appendChild(title);
+  container.appendChild(time);
+  container.appendChild(summary);
   container.appendChild(btnToggle);
   preview.appendChild(img);
   preview.appendChild(container);
@@ -146,7 +147,13 @@ function addEventListeners(promise) {
       const btn = document.getElementById(`btn-toggle-${recipe.id}`);
       btn.addEventListener("click", () => {
         buildRecipeCard(recipe);
+        sectionRecipeList.classList.toggle("hidden");
+        sectionRecipeList.classList.toggle("visible-flex");
+        sectionRecipe.classList.toggle("hidden");
+        sectionRecipe.classList.toggle("visible");
+        console.log("fired");
       });
     });
+    console.log("Loaded");
   });
 }

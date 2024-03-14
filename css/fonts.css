@@ -1,0 +1,125 @@
+/* 
+Montserrat: 500, 600
+Open Sans: 400
+Oswald: 500
+Roboto: 500
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&family=Oswald:wght@500&family=Roboto:wght@500&display=swap");
+
+:root {
+  --fs-600: 2.2rem;
+  --fs-500: 1.5rem;
+  --fs-400: 1.2rem;
+  --fs-300: 0.8rem;
+  --fs-200: 0.75rem;
+}
+
+/* Font Families */
+
+.montserrat {
+  font-family: "Montserrat";
+}
+
+.opensans {
+  font-family: "Open Sans";
+}
+
+.roboto {
+  font-family: "Roboto";
+}
+
+.oswald {
+  font-family: "Oswald";
+}
+
+/* Font Weights */
+.semibold {
+  font-weight: 600;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.fs-xl {
+  font-size: var(--fs-600);
+}
+
+.fs-l {
+  font-size: var(--fs-500);
+}
+
+.fs-r {
+  font-size: var(--fs-400);
+}
+
+.fs-s {
+  font-size: var(--fs-300);
+}
+
+.fs-xs {
+  font-size: var(--fs-200);
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+
+  :root {
+    --fs-600: 1.3rem;
+    --fs-500: 1rem;
+    --fs-400: 0.9rem;
+    --fs-300: 0.75rem;
+    --fs-200: 0.7rem;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 577px) and (max-width: 810px) {
+  html {
+    font-size: 16px;
+  }
+
+  :root {
+    --fs-600: 1.5rem;
+    --fs-500: 1.2rem;
+    --fs-400: 1rem;
+    --fs-300: 0.75rem;
+    --fs-200: 0.7rem;
+  }
+}
+
+/* Desktops & Laptops */
+@media screen and (min-width: 811px) and (max-width: 1155px) {
+  html {
+    font-size: 16px;
+  }
+
+  :root {
+    --fs-600: 1.6rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1.1rem;
+    --fs-300: 0.8rem;
+    --fs-200: 0.75rem;
+  }
+}
+
+/* Desktops & Laptops */
+@media screen and (min-width: 1156px) {
+  html {
+    font-size: 16px;
+  }
+
+  :root {
+    --fs-600: 1.8rem;
+    --fs-500: 1.35rem;
+    --fs-400: 1.1rem;
+    --fs-300: 0.8rem;
+    --fs-200: 0.75rem;
+  }
+}

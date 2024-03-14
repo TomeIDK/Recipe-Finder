@@ -34,6 +34,9 @@ function buildRecipeCard(currentRecipe) {
     recipeInstructionsList.innerHTML = "";
     recipeInstructionItem.classList.add("instruction-list__item");
     recipeInstructionNumber.classList.add("item-number");
+    recipeInstructionNumber.classList.add("fs-s");
+    recipeInstructionNumber.classList.add("roboto");
+    recipeInstructionNumber.classList.add("medium");
     recipeInstruction.classList.add("instruction");
 
     for (let i = 0; i < currentRecipe.instructions.length; i++) {

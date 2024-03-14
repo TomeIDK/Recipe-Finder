@@ -1,4 +1,7 @@
 const btnRandom = document.getElementById("btn-random");
+const btnClose = document.getElementById("btn-close");
+const sectionRecipe = document.getElementById("sectionRecipe");
+const sectionRecipeList = document.getElementById("cards");
 
 // Load fetch.js
 loadScript("/js/fetch.js", (script) => {
@@ -24,6 +27,13 @@ btnRandom.addEventListener("click", () => {
   promise.then((recipes) => {
     getRandomRecipe(recipes);
   })
+});
+
+btnClose.addEventListener("click", () => {
+  sectionRecipeList.classList.toggle("hidden");
+  sectionRecipeList.classList.toggle("visible-flex");
+  sectionRecipe.classList.toggle("hidden");
+  sectionRecipe.classList.toggle("visible");
 });
 
 function loadScript(src, cb) {

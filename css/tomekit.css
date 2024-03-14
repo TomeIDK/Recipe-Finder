@@ -1,0 +1,85 @@
+/* TomeKit Toggle Switch */
+.btn-switch{
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    width: 3rem;
+    height: 1.5rem;
+  }
+  
+  .btn-switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .btn-switch .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .btn-switch .slider::before{
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    left: 4px;
+    bottom: 4px;
+    background-color: #333333;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .btn-switch input:checked + .slider{
+    background-color: #333333;
+  }
+  
+  .btn-switch input:checked + .slider::before{
+    background-color: #f5f5f5;
+  }
+  
+  .btn-switch input:focus + .slider{
+    box-shadow: var(--hoverboxshadow) var(--shadow);
+  }
+  
+  .btn-switch input:checked + .slider::before{
+    -webkit-transform: translateX(1.5rem);
+    -ms-transform: translateX(1.5rem);
+    transform: translateX(1.5rem);
+  }
+  
+  .btn-switch .slider.rounded{
+    border-radius: 2rem;
+  }
+  
+  .btn-switch .slider.rounded::before{
+    border-radius: 50%;
+  }
+  
+  /* TomeKit Tertiary Button */
+  .btn-tertiary {
+    padding: 0;
+    color: #f5f5f5;
+    background-color: var(--primary);
+    border: none;
+    transition: text-shadow 0.2s ease-in-out;
+  }
+  
+  .btn-tertiary:hover {
+    text-shadow: var(--textshadow) var(--shadow);
+  }
+  
+  .btn-tertiary:focus {
+    text-shadow: var(--textshadow) var(--shadow);
+  }
+  
+  .btn-tertiary:active {
+    filter: brightness(90%);
+  }

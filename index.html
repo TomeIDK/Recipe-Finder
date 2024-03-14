@@ -3,38 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/tomekit.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="icon" href="/images/chickencurry.jpg" />
     <title>Tasty Tomes</title>
   </head>
   <body>
     <header>
-      <h3 class="header__title">Tasty Tomes</h3>
+      <h3 class="header__title montserrat semibold">Tasty Tomes</h3>
       <input
         type="search"
         id="rsearch"
         onkeyup="search()"
         class="search-bar"
         name="rsearch"
-        placeholder="Zoek naar een recept..."
+        placeholder="Filter recepten..."
       />
-      <nav class="header__locale">
+      <!-- <nav class="header__locale">
         <ul class="locale__list">
           <li class="locale__listitem locale__nl">
-            <a href="#" id="langNL" class="btn btn-tertiary btn-locale">NL</a>
+            <a href="#" id="langNL" class="btn btn-tertiary btn-locale fs-s"
+              >NL</a
+            >
           </li>
           <li class="locale__listitem locale__en locale__separator">
             <a href="#" id="langEN" class="btn btn-tertiary btn-locale">EN</a>
           </li>
         </ul>
-      </nav>
+      </nav> -->
       <label class="btn-switch">
         <input id="toggle-theme" type="checkbox" />
         <span class="slider rounded"></span>
       </label>
     </header>
     <main>
-      <section id="cards" class="recipe-list">
+      <section id="cards" class="recipe-list visible-flex">
         <div id="card-1" class="card">
           <div class="card__preview">
             <img
@@ -44,12 +49,12 @@
               class="card__img"
             />
             <div class="container">
-              <div class="wrapper">
-                <h3 class="card__title">Kip Curry</h3>
-                <small class="card__time">45-60 minuten</small>
-                <p class="card__summary">Origineel recept.</p>
-              </div>
-              <button id="btn-toggle-1" class="card__toggle">
+              <h3 class="card__title fs-xl montserrat medium">Kip Curry</h3>
+              <small class="card__time fs-xs oswald medium"
+                >45-60 minuten</small
+              >
+              <p class="card__summary opensans regular">Origineel recept.</p>
+              <button id="btn-toggle-1" class="card__toggle fs-s roboto medium">
                 Toon Recept
               </button>
             </div>
@@ -59,34 +64,48 @@
 
       <section class="options">
         <div class="options__wrapper">
-        <div id="options-div" class="options__card">
-          
-            <h3 id="options-title" class="options__title">Kip Curry</h3>
+          <div id="options-div" class="options__card">
+            <h3
+              id="options-title"
+              class="options__title fs-l montserrat medium"
+            >
+              Kip Curry
+            </h3>
             <img
               id="options-img"
               src="/images/chickencurry.jpg"
               alt=""
               class="options__img"
             />
-            <small id="options-time" class="options__time">45-60 minuten</small>
-            <p id="options-summary" class="options__summary">
+            <small id="options-time" class="options__time fs-xs oswald medium"
+              >45-60 minuten</small
+            >
+            <p id="options-summary" class="options__summary opensans regular">
               Origineel recept.
             </p>
           </div>
         </div>
-        <button id="btn-random" class="options__random options__toggle">
+        <button
+          id="btn-random"
+          class="options__random options__toggle fs-s roboto medium"
+        >
           Krijg een willekeurig recept
         </button>
       </section>
 
-      <section class="recipe">
+      <section id="sectionRecipe" class="recipe hidden">
         <div id="recipe" class="card__recipe">
-          <h3 class="recipe__title">Kip Curry</h3>
+          <button id="btn-close" class="close">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+          </button>
+          <h3 class="recipe__title fs-l montserrat medium">Kip Curry</h3>
           <div class="wrapper">
             <figure class="container">
-              <figcaption class="card__title--small">Ingrediënten</figcaption>
-              <ul class="card__ingredients-list">
-                <li class="ingredient">Kip</li>
+              <figcaption class="card__title--small fs-r montserrat medium">
+                Ingrediënten
+              </figcaption>
+              <ul class="card__ingredients-list opensans regular">
+                <li class="ingredient">2 kippenborsten</li>
                 <li class="ingredient">2 ajuinen</li>
                 <li class="ingredient">Rijst</li>
                 <li class="ingredient">Arachideolie</li>
@@ -98,17 +117,19 @@
               </ul>
             </figure>
             <figure class="container">
-              <figcaption class="card__title--small">Instructies</figcaption>
-              <ol class="card__instruction-list">
+              <figcaption class="card__title--small fs-r montserrat medium">
+                Instructies
+              </figcaption>
+              <ol class="card__instruction-list opensans regular">
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 1</span>
+                  <span class="item-number fs-s roboto medium">Stap 1</span>
                   <p class="instruction">
                     Snij de kip en ajuin in fijne stukjes.
                   </p>
                 </li>
 
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 2</span>
+                  <span class="item-number fs-s roboto medium">Stap 2</span>
                   <p class="instruction">
                     Bak de ajuin in arachideolie tot ze glazig zijn. Laat ze
                     daarna rusten in een kom. Voeg opnieuw arachideolie toe aan
@@ -118,11 +139,11 @@
                   </p>
                 </li>
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 3</span>
+                  <span class="item-number fs-s roboto medium">Stap 3</span>
                   <p class="instruction">Kook de rijst.</p>
                 </li>
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 4</span>
+                  <span class="item-number fs-s roboto medium">Stap 4</span>
                   <p class="instruction">
                     Voeg de ajuin toe in de pan met de kip. Giet de kokosmelk en
                     room in de pan en meng rustig. Voeg curry pasta toe
@@ -130,7 +151,7 @@
                   </p>
                 </li>
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 5</span>
+                  <span class="item-number fs-s roboto medium">Stap 5</span>
                   <p class="instruction">
                     Laat alles in de pan koken voor ongeveer 30 minuten zodat de
                     curry kan afkoken en dikt. Vergeet niet te roeren om
@@ -138,7 +159,7 @@
                   </p>
                 </li>
                 <li class="instruction-list__item">
-                  <span class="item-number">Stap 6</span>
+                  <span class="item-number fs-s roboto medium">Stap 6</span>
                   <p class="instruction">
                     Strooi koriander over het gerecht vlak voordat je het
                     opdient met de rijst.
@@ -152,11 +173,29 @@
     </main>
     <footer>
       <ul class="socials">
-        <li class="icon"><a href="https://github.com/TomeIDK" target="_blank" class="icon-link"><i class="fa-brands fa-github fa-xl"></i></a></li>
-        <li class="icon"><a href="https://www.linkedin.com/in/cedric-pas/" target="_blank" class="icon-link"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-        <li class="icon"><a href="https://twitter.com/TomeIDK" target="_blank" class="icon-link"><i class="fa-brands fa-x-twitter fa-xl"></i></a></li>
+        <li class="icon">
+          <a href="https://github.com/TomeIDK" target="_blank" class="icon-link"
+            ><i class="fa-brands fa-github fa-xl"></i
+          ></a>
+        </li>
+        <li class="icon">
+          <a
+            href="https://www.linkedin.com/in/cedric-pas/"
+            target="_blank"
+            class="icon-link"
+            ><i class="fa-brands fa-linkedin fa-xl"></i
+          ></a>
+        </li>
+        <li class="icon">
+          <a
+            href="https://twitter.com/TomeIDK"
+            target="_blank"
+            class="icon-link"
+            ><i class="fa-brands fa-x-twitter fa-xl"></i
+          ></a>
+        </li>
       </ul>
-      <p class="copyright">Copyright © 2024 Tome</p>
+      <p class="fs-s opensans regular">Copyright © 2024 Tome</p>
     </footer>
     <script src="/js/index.js"></script>
     <script src="/js/preferences.js"></script>
