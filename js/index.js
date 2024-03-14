@@ -26,7 +26,7 @@ btnRandom.addEventListener("click", () => {
   let promise = getRecipes();
   promise.then((recipes) => {
     getRandomRecipe(recipes);
-  })
+  });
 });
 
 btnClose.addEventListener("click", () => {

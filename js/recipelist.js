@@ -151,9 +151,7 @@ function addEventListeners(promise) {
         sectionRecipeList.classList.toggle("visible-flex");
         sectionRecipe.classList.toggle("hidden");
         sectionRecipe.classList.toggle("visible");
-        console.log("fired");
       });
     });
-    console.log("Loaded");
   });
 }
