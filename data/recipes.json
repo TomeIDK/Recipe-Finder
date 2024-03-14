@@ -95,11 +95,42 @@
     {
       "id": 3,
       "img": "/images/pepperbeefstirfry.png",
-      "title": "Gepeperd rundvlees roerbak",
+      "title": "Gepeperde rundvlees roerbak",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
-      "time": "4 personen | 30-45 minuten",
-      "ingredients": ["2 kippenborsten"],
-      "instructions": ["Snij de kip en prei in fijne stukjes."]
+      "time": "5 personen | 30-45 minuten",
+      "ingredients": [
+        "1kg dun gesneden steak",
+        "Rijst",
+        "2 tl gemalen peperbolletjes",
+        "60ml arachideolie",
+        "2 ajuinen",
+        "2 rode paprika's",
+        "100-200g princessen-bonen",
+        "6 teentjes look",
+        "20g gember",
+        "80ml soja saus",
+        "2 el oester/hoisin saus",
+        "2 1/2 el shaoxing wijn/sherry",
+        "120ml rundsbouillon",
+        "3 el maizena",
+        "2 tl zwarte peper",
+        "1-2 chilli's (optioneel)"
+      ],
+      "instructions": [
+        "Snij de ajuin en paprika's in reepjes. Knip de stelen van de boontjes en laat deze koken tot ze halfgaar zijn (10-15 mins).",
+        "Als je de boontjes liever zeer krokant hebt moet je ze niet op voorrand koken.",
+        "Snij de chilli in zeer kleine stukjes als je dit gebruikt.",
+        "Neem de peperbolletjes en plet ze in een mortier. Als je geen mortier hebt kan je ook een pepermolen gebruiken.",
+        "Snij de steak in dunne reepjes met een mes. Kruid het vlees daarna met zout en een beetje van de peper die we net gemalen hebben om alle smaken erin te krijgen.",
+        "Voor de saus voeg je de soja saus, wijn, oestersaus, geraspte gember, rundsbouillon, rest van de peper, en de maizena in een kom en meng dit met een garde totdat alles mooi gemengd is.",
+        "Zet de rijst op.",
+        "Warm een wokpan op en giet de arachideolie erin. Kook het vlees in de wokpan wanneer hij heet is en bak het totdat het net klaar is voor 2-3 mins want we willen niet dat het overgaar wordt.",
+        "Zet het vlees dan even apart en voeg nieuwe arachideolie toe in de pan om de ajuinen en paprika te bakken voor 3-4 mins om ze nog wat krokant te houden en kleur te geven.",
+        "Voeg vervolgens de boontjes toe en bak ze voor 1-3 mins, gebaseerd op hoe krokant je ze wilt en of je ze op voorrand gekookt hebt.",
+        "Meng nog eens snel in de saus en voeg deze dan toe aan de pan om het goed met de groenten te mengen voor 1-1.5 mins.",
+        "Als laatste voegen we het vlees weer toe aan de pan en bakken het voor ongeveer 1 min.",
+        "Serveer de roerbak met de rijst en eet smakelijk!"
+      ]
     },
     {
       "id": 4,
