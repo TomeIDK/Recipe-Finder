@@ -174,9 +174,36 @@
       "img": "/images/sweet&sourchicken.png",
       "title": "Zoetzure kip",
       "summary": "Credit: <a href='https://www.youtube.com/watch?v=1N6hbRbyAeQ' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
-      "time": "? personen | ? minuten",
-      "ingredients": ["2 kippenborsten"],
-      "instructions": ["Snij de kip en prei in fijne stukjes."]
+      "time": "5 personen | 40 minuten",
+      "ingredients": [
+        "2 kippenborsten",
+        "Rijst",
+        "3 paprika's",
+        "2 ajuinen",
+        "4 teentjes look",
+        "15g gember",
+        "2 1/2 el olijfolie",
+        "125ml soja saus",
+        "80ml ananassap uit blik",
+        "4 el/80g honing",
+        "2 el Worcestershire saus of vissaus",
+        "2 el appelazijn",
+        "2 el tomatenketchup",
+        "2el maizena"
+      ],
+      "instructions": [
+        "Snij de paprika's in kleine stukjes en de ajuin fijn.",
+        "Snij de kip in fijne gelijke stukjes.",
+        "Zet de rijst op.",
+        "Voor de zoetzure saus voeg je de sojasaus, honing, worcestershire saus, appelazijn, ketchup, ananassap uit blik en maizena. (Gebruik zeker ananassap uit blik omdat de enzymen van verse ananassap de maizena niet gaan toelaten om de saus te dikken)",
+        "Meng de saus met een garde.",
+        "Verhit een pan met olijfolie en bak er de paprika met ajuinen in voor ~4 mins. Voeg zout en peper toe naar smaak.",
+        "Haal de groenten uit de pan en zet ze opzij.",
+        "Voeg vervolgens opnieuw olijfolie toe in dezelfde pan en bak de kip erin voor ~3 mins totdat ze een goede kleur krijgt aan de buitenkant. Voeg weer zout en peper toe naar smaak.",
+        "Pers vervolgens de look en rasp de gember en voeg ze toe aan de pan en bak voor ~45s.",
+        "Voeg de groenten toe en meng het met de kip voor weer ~45s.",
+        "Meng de saus nog snel eens voordat je het in de pan giet en mengt met al de rest. Laat het koken en meng voor ongeveer 2 mins."
+      ]
     },
     {
       "id": 7,
@@ -216,6 +243,35 @@
         "Wanneer de kip voldoende voor u gemarineerd is haalt u hem uit de frigo en coat u de stukjes kip in de bloem, zorg ervoor dat je eerst het teveel van de marinade eraf drupt, en legt u ze in de frituurpan met hete olie voor 4-5 mins. totdat de kruimel er goud uit ziet. Doe dit in batches als het nodig is.",
         "Nu bent u klaar om te serveren. Smeer de pepermayonnaise over de tortilla uit en voeg de groenten toe met de kip en rol de tortilla op.",
         "Voel u vrij om eenderswelke groenten te gebruiken die u verkiest hiervoor!"
+      ]
+    },
+    {
+      "id": 8,
+      "img": "/images/img404.jpg",
+      "title": "Kip met spitskool",
+      "summary": "Origineel recept.",
+      "time": "4 personen | 30 minuten",
+      "ingredients": [
+        "2 kippenborsten",
+        "Rijst",
+        "Arachideolie",
+        "1 spitskool of Chinese kool",
+        "3 teentjes look",
+        "15g gember",
+        "100ml sojasaus",
+        "1 1/2 el oestersaus",
+        "1 el mirin",
+        "2 el rijstazijn",
+        "2 el sesamolie",
+        "2 el maizena"
+      ],
+      "instructions": [
+        "Snij de kip in fijne gelijke stukjes en de kool in reepjes nadat je de kern eruit snijdt.",
+        "Zet de rijst op.",
+        "Voor de saus voeg je de soja saus, wijnazijn, oestersaus, mirin, sesamolie, geperste look, gember en maizena in een kom en meng met een garde.",
+        "Verhit een wokpan met arachideolie en bak de spitskool erin voor 4-5 mins zodat ze nog niet slap is.",
+        "Haal de spitskool uit de pan en zet even opzij. Doe opnieuw arachideolie in de pan en bak de kip erin voor ~4 mins totdat alle stukjes mooi langs buiten gebakken zijn.",
+        "Voeg de spitskool toe, meng en bak samen voor ongeveer 2 mins. Voeg als laatste de saus toe nadat je er nog eens in mengt om brokken te voorkomen en bak het geheel voor 1 min. voordat je het serveert."
       ]
     }
   ]
