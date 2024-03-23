@@ -19,3 +19,24 @@
 
 [Multilingual Support](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)  
 [LocalStorage Tutorial](https://www.youtube.com/watch?v=AUOzvFzdIk4)
+
+## Portfolio Checklist
+Select elements [index.js Line 1](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
+Manipulate elements [recipe.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipe.js)  
+Add event to element [recipelist.js Line 143 & index.js Line 32](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipelist.js)  
+Validate form  
+Use of constants [index.js Line 1](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
+Use of template literals [index.js Line 8](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
+Destructuring [preferences.js Line 9](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
+Spread & Rest operator  
+Iteration over an array [random.js Line 13](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/random.js)  
+Arrow function [preferences.js](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
+Callback function [index.js Line 39](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
+Promise [fetch.js Line 8](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/fetch.js)  
+Consumer methods [fetch.js Line 19](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/fetch.js)  
+Async & Await [fetch.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/fetch.js)  
+Self executing function [preferences.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
+Fetch to fetch data [fetch.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/fetch.js)  
+Manipulate and display JSON [recipelist.js Line 10](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipelist.js)  
+Flexbox or CSS Grid [index.css Line 46 & Line 60](https://github.com/TomeIDK/Recipe-Finder/blob/main/index.css)  
+LocalStorage [preferences.js Line 16](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
