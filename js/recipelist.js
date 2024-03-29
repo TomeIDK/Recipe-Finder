@@ -78,8 +78,14 @@ function generateCard(id, dataImg, dataTitle, dataTime, dataSummary) {
   summary.innerHTML = dataSummary;
 
   // Toggle <button class="card__toggle">
-  let btnToggle = document.getElementById("btn-toggle-1").cloneNode(true);
+  // let btnToggle = document.getElementById("btn-toggle-1").cloneNode(true);
+  let btnToggle = document.createElement("button");
   btnToggle.id = "btn-toggle-" + id;
+  btnToggle.classList.add("card__toggle");
+  btnToggle.classList.add("fs-s");
+  btnToggle.classList.add("roboto");
+  btnToggle.classList.add("medium");
+  btnToggle.innerText = "Toon Recept";
 
   // Send above components to build the card
   let recipe = buildCard(

@@ -273,6 +273,19 @@
         "Haal de spitskool uit de pan en zet even opzij. Doe opnieuw arachideolie in de pan en bak de kip erin voor ~4 mins totdat alle stukjes mooi langs buiten gebakken zijn.",
         "Voeg de spitskool toe, meng en bak samen voor ongeveer 2 mins. Voeg als laatste de saus toe nadat je er nog eens in mengt om brokken te voorkomen en bak het geheel voor 1 min. voordat je het serveert."
       ]
+    },
+    {
+      "id": 9,
+      "img": "/images/img404.jpg",
+      "title": "Aardappel en kaas ovenschotel",
+      "summary": "Credit: <a href='https://www.youtube.com/watch?v=jKqTx_1nXXM' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
+      "time": "? personen | ? minuten",
+      "ingredients": [
+        "1.2 kg aardappelen"
+      ],
+      "instructions": [
+        "Snij de aardappelen in fijne schijfjes."
+      ]
     }
   ]
 }
