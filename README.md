@@ -38,5 +38,6 @@ Async & Await [fetch.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/ma
 Self executing function [preferences.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
 Fetch to fetch data [fetch.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/fetch.js)  
 Manipulate and display JSON [recipelist.js Line 10](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipelist.js)  
-Flexbox or CSS Grid [index.css Line 46 & Line 60](https://github.com/TomeIDK/Recipe-Finder/blob/main/index.css)  
+Flexbox or CSS Grid [index.css Line 46 & Line 60](https://github.com/TomeIDK/Recipe-Finder/blob/main/css/index.css)  
+Basic CSS Animation [tomekit.css Line 16 & Line 52](https://github.com/TomeIDK/Recipe-Finder/blob/main/css/tomekit.css)
 LocalStorage [preferences.js Line 16](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
