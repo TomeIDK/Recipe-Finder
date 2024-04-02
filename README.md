@@ -30,11 +30,11 @@
 Select elements [index.js Line 1](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
 Manipulate elements [recipe.js Line 7](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipe.js)  
 Add event to element [recipelist.js Line 143 & index.js Line 32](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/recipelist.js)  
-Validate form  
+Validate form [form.js Line 19](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/form.js)  
 Use of constants [index.js Line 1](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
 Use of template literals [index.js Line 8](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
 Destructuring [preferences.js Line 9](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
-Spread & Rest operator  
+Spread & Rest operator [form.js Line 99](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/form.js)  
 Iteration over an array [random.js Line 13](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/random.js)  
 Arrow function [preferences.js](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/preferences.js)  
 Callback function [index.js Line 39](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
