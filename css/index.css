@@ -40,6 +40,13 @@ header {
   margin: auto;
 }
 
+.feedback{
+  text-decoration: none;
+  color: #f5f5f5;
+  margin-right: 1rem;
+  margin-block: auto;
+}
+
 /* Main */
 
 main {
