@@ -19,6 +19,12 @@
 
 [Multilingual Support](https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505)  
 [LocalStorage Tutorial](https://www.youtube.com/watch?v=AUOzvFzdIk4)
+[Check whether an input string contains a number in javascript](https://stackoverflow.com/questions/5778020/check-whether-an-input-string-contains-a-number-in-javascript)  
+   ```
+function hasNumber(myString) {
+  return /\d/.test(myString);
+}
+```
 
 ## Portfolio Checklist
 Select elements [index.js Line 1](https://github.com/TomeIDK/Recipe-Finder/blob/main/js/index.js)  
