@@ -21,8 +21,8 @@
 [LocalStorage Tutorial](https://www.youtube.com/watch?v=AUOzvFzdIk4)
 [Check whether an input string contains a number in javascript](https://stackoverflow.com/questions/5778020/check-whether-an-input-string-contains-a-number-in-javascript)  
    ```
-function hasNumber(myString) {
-  return /\d/.test(myString);
+    function hasNumber(myString) {
+     return /\d/.test(myString);
 }
 ```
 
