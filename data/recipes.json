@@ -113,7 +113,6 @@
         "2 1/2 el shaoxing wijn/sherry",
         "120ml rundsbouillon",
         "3 el maizena",
-        "2 tl zwarte peper",
         "1-2 chilli's (optioneel)"
       ],
       "instructions": [
@@ -122,7 +121,7 @@
         "Snij de chilli in zeer kleine stukjes als je dit gebruikt.",
         "Neem de peperbolletjes en plet ze in een mortier. Als je geen mortier hebt kan je ook een pepermolen gebruiken.",
         "Snij de steak in dunne reepjes met een mes. Kruid het vlees daarna met zout en een beetje van de peper die we net gemalen hebben om alle smaken erin te krijgen.",
-        "Voor de saus voeg je de soja saus, wijn, oestersaus, geraspte gember, rundsbouillon, rest van de peper, en de maizena in een kom en meng dit met een garde totdat alles mooi gemengd is.",
+        "Voor de saus voeg je de soja saus, wijn, oestersaus, geperste look, geraspte gember, rundsbouillon, rest van de peper, en de maizena in een kom en meng dit met een garde totdat alles mooi gemengd is.",
         "Zet de rijst op.",
         "Warm een wokpan op en giet de arachideolie erin. Kook het vlees in de wokpan wanneer hij heet is en bak het totdat het net klaar is voor 2-3 mins want we willen niet dat het overgaar wordt.",
         "Zet het vlees dan even apart en voeg nieuwe arachideolie toe in de pan om de ajuinen en paprika te bakken voor 3-4 mins om ze nog wat krokant te houden en kleur te geven.",
@@ -154,7 +153,7 @@
         "5g gember",
         "2 el currypoeder",
         "1/2 tl chilipoeder",
-        "1 el soja saus",
+        "2 el soja saus",
         "1 tl rijstwijnazijn",
         "500ml kippenbouillon",
         "1 el honing"
@@ -202,7 +201,7 @@
         "Rasp de wortelen fijn.",
         "Kook de pasta in lichtgezouten water volgens de verpakking.",
         "Verhit de olijfolie in een braadpan en bak de chipolata's goudbruin. Haal ze uit de pan en snij in stukjes van ~2cm",
-        "Voeg de geraspte wortelen toe en laat nog 2 mins bakken.",
+        "Doe de ajuin of sjalot in de pan en bak ze voor 3-4 mins. Voeg vervolgens de geraspte wortelen toe en laat nog 2 mins bakken.",
         "Roer er de room en de kruidenkaas onder. Kruid met peper en zout.",
         "Giet de pasta in een ovenschaal en voeg de wortelen en chipolata toe. Bestrooi met de geraspte mozzarella.",
         "Bak 10 mins in de oven en zet voor de laatste 2-3 mins de ovengrill aan voor een goudbruin korstje."
@@ -324,6 +323,29 @@
       ],
       "instructions": [
         "Snij de aardappelen in fijne schijfjes."
+      ]
+    },
+    {
+      "id": 10,
+      "img": "/images/asianmeatballs.webp",
+      "title": "Aziatische Gehaktballetjes",
+      "summary": "Credit: <a href='https://therecipecritic.com/asian-meatballs/#wprm-recipe-container-44634' class='summary__credit' target='_blank'>Alyssa Rivers</a>",
+      "time": "5 personen | 1 uur",
+      "ingredients": [
+        "1kg rundsgehakt",
+        "3 tl sesamolie",
+        "200g paneermeel",
+        "2 tl gemberpoeder",
+        "2 eieren",
+        "5 teentjes look",
+        "2 kleine ajuinen",
+        "Sesamzaadjes",
+        "150ml teriyakisaus",
+        "80ml rijstwijnazijn",
+        "2 el sojasaus"
+      ],
+      "instructions": [
+        "Voorverwarm de oven op 200°C."
       ]
     }
   ]
