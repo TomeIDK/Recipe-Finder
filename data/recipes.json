@@ -285,7 +285,7 @@
     },
     {
       "id": 8,
-      "img": "/images/img404.jpg",
+      "img": "/images/kipmetspitskool.jpg",
       "title": "Kip met spitskool",
       "summary": "Origineel recept.",
       "time": "4 personen | 30 minuten",
@@ -314,19 +314,6 @@
     },
     {
       "id": 9,
-      "img": "/images/img404.jpg",
-      "title": "Aardappel en kaas ovenschotel",
-      "summary": "Credit: <a href='https://www.youtube.com/watch?v=jKqTx_1nXXM' class='summary__credit' target='_blank'>Chef Jack Ovens</a>",
-      "time": "? personen | ? minuten",
-      "ingredients": [
-        "1.2 kg aardappelen"
-      ],
-      "instructions": [
-        "Snij de aardappelen in fijne schijfjes."
-      ]
-    },
-    {
-      "id": 10,
       "img": "/images/asianmeatballs.webp",
       "title": "Aziatische Gehaktballetjes",
       "summary": "Credit: <a href='https://therecipecritic.com/asian-meatballs/#wprm-recipe-container-44634' class='summary__credit' target='_blank'>Alyssa Rivers</a>",
@@ -338,14 +325,21 @@
         "2 tl gemberpoeder",
         "2 eieren",
         "5 teentjes look",
-        "2 kleine ajuinen",
+        "1 ajuin",
         "Sesamzaadjes",
         "150ml teriyakisaus",
         "80ml rijstwijnazijn",
-        "2 el sojasaus"
+        "2 el sojasaus",
+        "1 el maizena"
       ],
       "instructions": [
-        "Voorverwarm de oven op 200°C."
+        "Voorverwarm de oven op 200°C.",
+        "Neem een grote kom en doe het rundsgehakt erin. Meng het met 2 tl sesamolie, de paneermeel, gemberpoeder, eieren, 3 teentjes gesperste look en ajuin.",
+        "Rol balletjes van het gemengde gehakt ten grootte van ongeveer golfbal of eetlepel.",
+        "Leg ze in een ovenschotel en bak ze voor 10-12 minuten totdat de gehaktballetjes mooi goud zijn aan de buitenkant.",
+        "Terwijl de gehaktballetjes aan het bakken zijn kan je de saus maken. Neem een nieuwe kom en meng de teriyakisaus, rijstwijnazijn, sojasaus, 2 teentjes geperste look, 1 tl sesamolie en 1 tl gemberpoeder samen met een garde.",
+        "Wanneer het goed gemengd is verwarm je de saus op een laag vuur. Wanneer het is opgewarmd voeg je 1 el maizena toe om de saus te dikken en meng je weer goed.",
+        "Wanneer de gehaktballetjes klaar zijn kan je deze serveren met de saus erop of ernaast om in te dippen."
       ]
     }
   ]
